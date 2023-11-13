@@ -150,8 +150,8 @@ header {
             height: 100%;
             h5 {
                 margin: 14px 0;
-                font-weight: 900;
-                color: grey;
+                font-weight: 600;
+                color: $theme-primary;
             }
             &:hover {
                 background: $theme-primary;
@@ -695,25 +695,27 @@ footer {
     }
     .facts_figure_con > div img{
         margin-top: 10px;
+        filter: brightness(0) invert(1);
     }
     .projects_box,.creative_box,.coffee_box{
         min-height: 164px;
     }
     .bold_text{
-        font-size: 36px;
-        color: #edf3f6;
+        font-size: 30px;
+        color: #fff;
         font-weight: 700;
         display: block;
         line-height: 36px;
     }
     .light_text{
-        font-size: 18px;
-        font-weight: 400;
-        color: #ced7db;
+        font-size: 16px;
+        font-weight: 500;
+        color: #ffffff;
         text-transform: uppercase;
         letter-spacing: 2px;
         float: left;
         width: 100%;
+        line-height: 19px;
     }
     .peoples_box img{
         max-width: 204px;
@@ -881,4 +883,24 @@ footer {
         margin-top: 20px;
         margin-bottom: 70px;
     }
+}
+.bet-head{
+    color: $theme-primary;
+    font-weight: 100;
+    border-bottom: 2px solid $theme-primary;
+}
+.left-border-span{
+    // border-left: 6px solid $theme-primary;
+    position: relative;
+    &::before{
+        content: "";
+        position: absolute;
+        height: 10px;
+        width: 80px;
+        background: #cc292b;
+        left: 0px;
+        bottom: -12px;
+        background: $theme-primary;
+    }
+
 }

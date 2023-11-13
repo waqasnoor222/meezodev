@@ -15323,7 +15323,7 @@ header ul li {
 }
 header ul li a {
   font-size: 16px;
-  color: white;
+  color: black;
   font-weight: 400;
 }
 header ul li a:hover {
@@ -15393,7 +15393,7 @@ header img {
 .large-header {
   position: relative;
   width: 100%;
-  background: #333;
+  background: rgba(51, 51, 51, 0.0705882353);
   overflow: hidden;
   background-size: cover;
   background-position: center center;
@@ -15401,17 +15401,20 @@ header img {
 }
 
 .black {
-  background: #4d4d4d;
+  background: #e9e9e9;
 }
 
 .banner {
-  position: relative;
+  position: absolute;
   background-repeat: repeat;
   background-size: cover;
   background-position: center;
   height: 100vh;
   display: flex;
   align-items: center;
+  top: 0;
+  width: 100%;
+  z-index: 0;
 }
 .banner .banner-left-box {
   display: flex;
@@ -15422,10 +15425,11 @@ header img {
 }
 .banner .banner-left-box h1 {
   font-weight: 900;
-  color: white;
+  color: black;
+  font-size: 45px;
 }
 .banner .banner-left-box p {
-  color: white;
+  color: black;
 }
 .banner .banner-left-box button {
   color: #ffffff !important;
@@ -15445,7 +15449,8 @@ header img {
   position: relative;
 }
 .banner .team-box img {
-  width: 300px;
+  width: 420px;
+  animation: bouncingBall 0.9s ease-in infinite;
 }
 .banner .team-box .custom-intro {
   width: 240px;
@@ -15474,7 +15479,6 @@ header img {
   font-weight: 900;
 }
 .banner::before {
-  content: "";
   position: absolute;
   height: 100%;
   width: 100%;
@@ -15483,11 +15487,10 @@ header img {
 }
 
 .banner-bot-slider {
-  background-color: #4d4d4d !important;
+  background-color: rgba(77, 77, 77, 0.0588235294) !important;
   padding: 10px 0;
 }
 .banner-bot-slider img {
-  filter: brightness(0) invert(1);
   width: 171px;
 }
 
@@ -16235,6 +16238,57 @@ footer ul li a:hover {
   background: #cc292b;
 }
 
+.banner .round {
+  position: absolute;
+  bottom: 100px;
+  animation: rescale 3s infinite;
+  width: 100px;
+}
+
+.banner .square {
+  position: absolute;
+  bottom: 80px;
+  animation: rescale 3s infinite;
+  right: 70px;
+  width: 40px;
+  bottom: 290px;
+}
+
+@keyframes rescale {
+  0% {
+    transform: rotate(0deg) scale(1);
+  }
+  10% {
+    transform: rotate(36deg) scale(1.1);
+  }
+  20% {
+    transform: rotate(72deg) scale(1);
+  }
+  30% {
+    transform: rotate(108deg) scale(1.1);
+  }
+  40% {
+    transform: rotate(144deg) scale(1);
+  }
+  50% {
+    transform: rotate(180deg) scale(1.1);
+  }
+  60% {
+    transform: rotate(216deg) scale(1);
+  }
+  70% {
+    transform: rotate(252deg) scale(1.1);
+  }
+  80% {
+    transform: rotate(288deg) scale(1);
+  }
+  90% {
+    transform: rotate(334deg) scale(1.1);
+  }
+  100% {
+    transform: rotate(360deg) scale(1.3);
+  }
+}
 .tab-content {
   background-position: right top;
   background-repeat: no-repeat;

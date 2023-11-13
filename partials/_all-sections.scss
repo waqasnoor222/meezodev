@@ -1,4 +1,5 @@
 header {
+    // border-bottom: 1px solid rgb(0 0 0 / 6%);
     z-index: 1;
     width: 100%;
     width: 100%;
@@ -22,7 +23,7 @@ header {
             display: flex;
             a {
                 font-size: 16px;
-                color: white;
+                color: black;
                 font-weight: 400;
                 &:hover {
                     text-decoration: none;
@@ -100,7 +101,7 @@ header {
 .large-header {
     position: relative;
     width: 100%;
-    background: #333;
+    background: #33333312;
     overflow: hidden;
     background-size: cover;
     background-position: center center;
@@ -108,18 +109,21 @@ header {
 }
 
 .black {
-    background: #4d4d4d;
+    background: #e9e9e9;
     // height: 80px;
     // padding: 10px 50px;
 }
 .banner {
-    position: relative;
+    position: absolute;
     background-repeat: repeat;
     background-size: cover;
     background-position: center;
     height: 100vh;
     display: flex;
     align-items: center;
+    top: 0;
+    width: 100%;
+    z-index: 0;
     .banner-left-box {
         display: flex;
         height: 100%;
@@ -128,10 +132,11 @@ header {
         flex-direction: column;
         h1 {
             font-weight: 900;
-            color: white;
+            color: black;
+            font-size: 45px;
         }
         p {
-            color: white;
+            color: black;
         }
         button {
             color: #ffffff !important;
@@ -151,8 +156,8 @@ header {
     .team-box {
         position: relative;
         img {
-            width: 300px;
-            // margin-top: 63px;
+            width:420px;
+            animation: bouncingBall .9s ease-in infinite;
         }
         .custom-intro {
             width: 240px;
@@ -182,7 +187,7 @@ header {
         }
     }
     &::before {
-        content: "";
+        // content: "";
         position: absolute;
         height: 100%;
         width: 100%;
@@ -190,11 +195,14 @@ header {
         top: 0;
     }
 }
+
+
+
 .banner-bot-slider {
-    background-color: #4d4d4d !important;
+    background-color: #4d4d4d0f !important;
     padding: 10px 0;
     img {
-        filter: brightness(0) invert(1);
+        // filter: brightness(0) invert(1);
         width: 171px;
     }
 }
@@ -982,5 +990,55 @@ footer {
         left: 0px;
         bottom: -12px;
         background: $theme-primary;
+    }
+}
+.banner .round{
+    position: absolute;
+    bottom: 100px;
+    animation: rescale 3s infinite;
+   width: 100px;
+}
+.banner .square{
+    position: absolute;
+    bottom: 80px;
+    animation: rescale 3s infinite;
+    right: 70px;
+    width: 40px;
+    bottom: 290px;
+}
+@keyframes rescale{
+    0% {
+        transform: rotate(0deg) scale(1);
+    }
+    10% {
+        transform: rotate(36deg) scale(1.1);
+    }
+    20% {
+        transform: rotate(72deg) scale(1);
+    }
+    30% {
+        transform: rotate(108deg) scale(1.1);
+    }
+    40% {
+        transform: rotate(144deg) scale(1);
+    }
+    50% {
+        transform: rotate(180deg) scale(1.1);
+    }
+    
+    60% {
+        transform: rotate(216deg) scale(1);
+    }
+    70% {
+        transform: rotate(252deg) scale(1.1);
+    }
+    80% {
+        transform: rotate(288deg) scale(1);
+    }
+    90% {
+        transform: rotate(334deg) scale(1.1);
+    }
+    100% {
+        transform: rotate(360deg) scale(1.3);
     }
 }

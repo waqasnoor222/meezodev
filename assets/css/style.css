@@ -11721,7 +11721,7 @@ blockquote {
   position: absolute;
   height: 100%;
   width: 100%;
-  background: red;
+  background: #f2f2f2;
 }
 .processing-hero-text {
   max-width: 730px;
@@ -11738,12 +11738,12 @@ blockquote {
   letter-spacing: 3px;
   font-weight: 700;
   font-size: 18px;
-  color: #ffffff;
+  color: #2c2c2c;
   text-transform: uppercase;
   margin-bottom: 20px;
 }
 .processing-hero-text h1 {
-  color: #ffffff;
+  color: #2c2c2c;
   font-weight: 500;
   font-size: 68px;
   letter-spacing: 0;

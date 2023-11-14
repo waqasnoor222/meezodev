@@ -11876,15 +11876,15 @@ blockquote {
   font-size: 10px;
   display: inline-block;
   margin: 0;
-  border: 1px solid #ddd;
+  border: 1px solid #cc292b;
   border-radius: 50%;
   height: 30px;
   width: 30px;
   line-height: 30px;
-  color: #fff;
+  color: #cc292b;
 }
 .hero-popup-video .video-play .video-play-icon i {
-  color: #ffffff;
+  color: #cc292b;
 }
 
 /*===============================
@@ -13996,15 +13996,15 @@ blockquote {
   font-size: 10px;
   display: inline-block;
   margin: 0;
-  border: 1px solid #ddd;
+  border: 1px solid #cc292b;
   border-radius: 50%;
   height: 30px;
   width: 30px;
   line-height: 30px;
-  color: #fff;
+  color: #cc292b;
 }
 .hero-popup-video .video-play .video-play-icon i {
-  color: #ffffff;
+  color: #cc292b;
 }
 
 .hero-brand-wrap {

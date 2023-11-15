@@ -397,6 +397,47 @@
             }
         }
     });
+
+    var carouselSlider = new Swiper('.banner-slider', {
+        slidesPerView : 1,
+        slidesPerGroup: 1,
+        loop: true,
+        speed: 150,
+        effect: 'fade',
+        spaceBetween : 0,
+        autoplay: {
+            delay: 4000,
+        },
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+        pagination: {
+            el: '.swiper-pagination-t01',
+            type: 'bullets',
+            clickable: true
+        },
+        breakpoints: {
+            1499:{
+                slidesPerView : 1
+            },
+
+            991:{
+                slidesPerView : 1
+            },
+
+            767:{
+                slidesPerView : 1
+
+            },
+
+            575:{
+                slidesPerView : 1
+            }
+        }
+    });
+
+
     $(".hero-slider__container").hover(function() {
         (this).swiper.autoplay.stop();
     }, function() {

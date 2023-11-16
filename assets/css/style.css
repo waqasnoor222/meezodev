@@ -3498,7 +3498,7 @@ input[type=checkbox] {
 }
 .megamenu--mega > li .page-list-title {
   font-size: 14px;
-  margin-bottom: 20px;
+  margin-bottom: 0px;
   color: #333333;
 }
 .megamenu--mega > li > ul > li > a {

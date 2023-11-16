@@ -1253,3 +1253,24 @@
     }
 
 })(jQuery);
+
+
+$(document).ready(function() {
+    $('.testimonial-slider').slick({
+        autoplay: false,
+        autoplaySpeed: 1000,
+        speed: 600,
+        draggable: true,
+        infinite: true,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        fade: true,
+        arrows: false,
+        dots: true,
+    });
+
+    $('.slick-dots li:nth-child(1)').html('<button>Build</button>');
+    $('.slick-dots li:nth-child(2)').html('<button>Sell</button>');
+    $('.slick-dots li:nth-child(3)').html('<button>SKill</button>');
+    $('.slick-dots li:nth-child(4)').html('<button>SKill</button>');
+});

@@ -598,7 +598,14 @@ input[type=checkbox] {
   z-index: 2;
   background: #ffffff;
 }
-
+.banner-pet{
+  width: 420px;
+  position: absolute;
+  bottom: 0;
+  opacity: 0.1;
+  top: 0;
+  z-index: 9;
+}
 .swiper-pagination.swiper-pagination-white .swiper-pagination-bullet {
   margin: 8px;
 }
@@ -11593,7 +11600,14 @@ blockquote {
     video section css
 --------------------------*/
 .infotechno-section-bg-01 {
-  background: url(../images/patterns/mitech-home-infotechno-section-company-bg.webp) top 140px left no-repeat, -webkit-linear-gradient(top, #FFF 0, #fff 100%);
+  /* background: url(../images/logo/fav.png) top 140px left no-repeat, -webkit-linear-gradient(top, #FFF 0, #fff 100%); */
+  position: relative;
+}
+.banner-bot-pet{
+  width: 420px;
+  position: absolute;
+  bottom: 0;
+  opacity: 0.1;
 }
 
 .infotechno-video-bg {

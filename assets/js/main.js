@@ -474,6 +474,40 @@
             }
         }
     });
+
+
+
+    var brandLogoSlider = new Swiper('.banner-slider__container', {
+        slidesPerView : 1,
+        loop: true,
+        speed: 1000,
+        spaceBetween : 30,
+        // effect: 'fade',
+        autoplay: {
+            delay: 3000,
+        },
+
+        breakpoints: {
+            1499:{
+                slidesPerView : 1
+            },
+
+            991:{
+                slidesPerView : 4
+            },
+
+            767:{
+                slidesPerView : 3
+
+            },
+
+            575:{
+                slidesPerView : 2
+            }
+        }
+    });
+
+
     
     var carouselSlider = new Swiper('.top-info-slider__container', {
         slidesPerView : 3,

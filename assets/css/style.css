@@ -3221,14 +3221,61 @@ input[type=checkbox] {
   visibility: visible;
   opacity: 1;
 }
+.slick-dots li {
+  position: relative;
+  display: inline-block;
+  /* width: 80px; */
+  height: 20px;
+  margin: 0 5px;
+  padding: 0;
+  cursor: pointer;
+  padding:0 41px !important;
+}
+.slick-dots {
+    position: absolute;
+    bottom: 105px;
+    /* display: flex; */
+}
+.slick-dots li button:before {
+  font-family: 'slick';
+  font-size: 6px;
+  line-height: 13px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0px;
+  height: 20px;
+  content: '•';
+  text-align: center;
+  opacity: .25;
+  color: black;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  border: 5px solid transparent;
+  border-radius: 50%;
+  background: transparent;
+  color: #cc292b !important;
+  left: 22px;
+  font-size: 15px;
+  top: -1px;
+}
+.slick-dots li button {
+  font-size: 13px !important;
+  color: black;
+  font-weight: 600;
+}
+.slick-dots li button {
+  width: 31px;
+}
+
 .navigation-menu > ul > li:hover > a:after, .navigation-menu > ul > li.active > a:after {
-  color: #cc292b;
+  /* color: #cc292b; */
   -webkit-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
 .navigation-menu > ul > li:hover > a span, .navigation-menu > ul > li.active > a span {
-  color: #cc292b;
+  /* color: #cc292b; */
   -webkit-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
@@ -10567,16 +10614,20 @@ ol {
 .conact-us-wrap-one .heading::before {
   content: "";
   position: absolute;
-  top: 50%;
+  top: 340%;
   left: 0;
   width: 4px;
-  height: 94%;
+  height: 160px;
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
-  background-color: #d2a98e;
+  background-color: #cc292b;
+}
+.act-bef::before{
+  display: none !important;
 }
 .conact-us-wrap-one .sub-heading {
+  position: relative;
   margin-top: 15px;
   font-size: 18px;
   margin-left: 34px;

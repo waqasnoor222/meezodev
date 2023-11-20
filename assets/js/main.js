@@ -1269,8 +1269,7 @@ $(document).ready(function() {
         dots: true,
     });
 
-    $('.slick-dots li:nth-child(1)').html('<button>Meezotech</button>');
-    $('.slick-dots li:nth-child(2)').html('<button>Build</button>');
-    $('.slick-dots li:nth-child(3)').html('<button>Sell</button>');
-    $('.slick-dots li:nth-child(4)').html('<button>Scale</button>');
+    $('.slick-dots li:nth-child(1)').html('<button>Build</button>');
+    $('.slick-dots li:nth-child(2)').html('<button>Sell</button>');
+    $('.slick-dots li:nth-child(3)').html('<button>Scale</button>');
 });

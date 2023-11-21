@@ -5983,6 +5983,14 @@ ul.footer-widget__horizontal-list li {
   width: 65px;
   height: 65px;
 }
+.ht-box-icon.style-02 .icon-box-wrap .icon .png-icon {
+  width: 65px;
+  height: 65px;
+}
+.ht-box-icon.style-02 .icon-box-wrap .icon .png-icon img{
+  width: 100%;
+  height: 100%;
+}
 .ht-box-icon.style-02 .icon-box-wrap .icon svg * {
   stroke: currentColor;
 }

@@ -213,7 +213,12 @@ body {
 body.no-overflow {
   overflow: hidden;
 }
-
+.ht-list.style-auto-numbered-02 .title::before{
+  display: none !important;
+}
+.ht-list.style-auto-numbered-02 .title::after{
+  display: none !important;
+}
 h1,
 h2,
 h3,

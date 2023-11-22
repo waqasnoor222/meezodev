@@ -203,7 +203,7 @@ body {
   content: '';
   position: absolute;
   height: 100%;
-  width: 1366px;
+  width: 100%;
   background-image: url(../images/hero/pet-1.png);
   top: 0;
   /* z-index: 9; */

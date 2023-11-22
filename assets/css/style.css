@@ -3499,7 +3499,7 @@ input[type="checkbox"] {
   top: -1px;
 }
 .slick-dots li button {
-  font-size: 13px !important;
+  font-size: 14px !important;
   color: black;
   font-weight: 600;
 }
@@ -14374,7 +14374,7 @@ blockquote {
 }
 @media only screen and (min-width: 320px) and (max-width: 479px) {
   .slick-dots li {
-    padding: 0 40px !important;
+    padding: 0 50px !important;
 }
 .slick-dots li button:before {
   left: 12px;

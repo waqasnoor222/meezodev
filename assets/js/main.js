@@ -1269,7 +1269,7 @@ $(document).ready(function() {
         dots: true,
     });
 
-    $('.slick-dots li:nth-child(1)').html('<button>Build</button>');
-    $('.slick-dots li:nth-child(2)').html('<button>Sell</button>');
-    $('.slick-dots li:nth-child(3)').html('<button>Scale</button>');
+    $('.slick-dots li:nth-child(1)').html('<button>Innovate</button>');
+    $('.slick-dots li:nth-child(2)').html('<button>Integrate</button>');
+    $('.slick-dots li:nth-child(3)').html('<button>Inspire</button>');
 });

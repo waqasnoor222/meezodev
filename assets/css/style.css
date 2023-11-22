@@ -332,13 +332,13 @@ h1 {
     padding-left: 0 !important;
   }
   .processing-hero-text h1 {
-    font-size: 14px !important;
+    font-size: 36px !important;
   }
   .processing-hero-text h6 {
-    line-height: 9px !important;
+    line-height: 39px !important;
     letter-spacing: 3px !important;
     font-weight: 700 !important;
-    font-size: 13px !important;
+    font-size: 19px !important;
     color: #2c2c2c !important;
     text-transform: uppercase !important;
     margin-bottom: 10px !important;
@@ -348,7 +348,7 @@ h1 {
     color: #cc292b !important;
     padding: 5px !important;
     font-weight: 700 !important;
-    font-size: 12px !important;
+    font-size: 23px !important;
     line-height: 0 !important;
   }
   .processing-hero-images {
@@ -365,9 +365,9 @@ h1 {
     /* left: -11px; */
   }
   .testimonial{
-    padding-top: 30px;
-    height: max-content;
-    padding-bottom: 50px;
+    /* padding-top: 30px; */
+    height: 100vh;
+    /* padding-bottom: 50px; */
   }
 }
 @media only screen and (max-width: 767px) {

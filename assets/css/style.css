@@ -360,9 +360,15 @@ h1 {
     margin: auto;
   }
   .slick-dots {
-    bottom: -15px !important;
+    bottom: -45px !important;
+    text-align: left;
+    /* left: -11px; */
   }
-
+  .testimonial{
+    padding-top: 30px;
+    height: max-content;
+    padding-bottom: 50px;
+  }
 }
 @media only screen and (max-width: 767px) {
   h1 {
@@ -12448,8 +12454,11 @@ blockquote {
   width: 100%;
 }
 @media only screen and (max-width: 767px) {
+  .testimonial-slide {
+    padding: 0px 20px;
+}
   .processing-hero-text {
-    margin-top: 60px;
+    margin-top: 0px;
     text-align: center;
   }
 }
@@ -12507,7 +12516,7 @@ blockquote {
 }
 @media only screen and (max-width: 767px) {
   .processing-hero-images-wrap {
-    margin-top: 30px;
+    margin-top: 10px;
   }
 }
 
@@ -14365,7 +14374,7 @@ blockquote {
 }
 @media only screen and (min-width: 320px) and (max-width: 479px) {
   .slick-dots li {
-    padding: 0 31px !important;
+    padding: 0 40px !important;
 }
 .slick-dots li button:before {
   left: 12px;
@@ -15035,6 +15044,12 @@ blockquote {
   border-color: #d2a98e;
   background: #d2a98e;
   color: #fff !important;
+}
+.mob-hire-pro-btn{
+  background: white;
+  color: #cc292b !important;
+  text-align: center;
+  border-radius: 7px;
 }
 .hire-button {
   background: #cc292b;
